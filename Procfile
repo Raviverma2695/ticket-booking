@@ -1,1 +1,0 @@
-web: java -jar target/ticketbooking-1.0.jar
