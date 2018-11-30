@@ -20,24 +20,5 @@ public class Application {
     }
 }
 
-//@Configuration
-//@ComponentScan(basePackages = "com.ravi.booking")
-//@Import({BeanConfig.class, WebConfig.class})
-////@EnableWebMvc
-//@EnableAutoConfiguration
-//public class Application extends SpringBootServletInitializer {
-//
-//    private static Class applicationClass = Application.class;
-//
-//    public static void main(String[] args) {
-//        SpringApplication.run(Application.class, args);
-//    }
-//
-//    @Override
-//    protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-//        return application.sources(applicationClass);
-//    }
-//
-//}
 
 
