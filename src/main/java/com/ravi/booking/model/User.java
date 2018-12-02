@@ -3,6 +3,7 @@ package com.ravi.booking.model;
 import javax.persistence.*;
 
 @Entity
+@Table(name = "usersna")
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
