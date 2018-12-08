@@ -15,13 +15,9 @@ public class UserController {
     @Autowired
     private UserDao userDao;
 
-    @GetMapping("/")
+    @GetMapping("/users")
     public String hello() {
-        userDao.save(new User().setAge(23).setName("Ravi"));
-        userDao.save(new User().setAge(23).setName("akshay"));
-        userDao.save(new User().setAge(23).setName("rahul"));
-        userDao.save(new User().setAge(22).setName("rohan"));
-        userDao.save(new User().setAge(22).setName("raghab"));
+
         List<User> list = userDao.getByAge(23);
         return list.toString();
     }
